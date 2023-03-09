@@ -3,13 +3,17 @@
 	font-family: 'Montserrat', sans-serif;
 }
 body {
-	background: #f1fbff;
+	background: #FFF;
 }
 
 .navbar {
 	background-color: gray;
 	opacity:0.8
 		
+}
+#WhatsMobile button {
+	background-color:green;
+	border-radius: 10px;
 }
 
 .btn a{
@@ -223,6 +227,7 @@ footer .bi-whatsapp:hover{
 		height: 93vh;
 		min-height: 300px;	object-fit: cover;	
 	}
+	
 }
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
@@ -247,7 +252,7 @@ footer .bi-whatsapp:hover{
 		padding-top: 10px;
 	}
 	.card {
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 	.container iframe{
 		height: 95%;
@@ -296,4 +301,12 @@ footer .bi-whatsapp:hover{
 	hr{
 		display: none;
 	}
+     .navbar li button{
+		display: none;
+	 }
+	 #WhatsMobile{
+		display: inline !important;
+		border-radius: 20px;
+		color:green
+	 }
 }
