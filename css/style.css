@@ -22,7 +22,7 @@ body {
 .fixed  { display:block; position:fixed; z-index:9; background-color: gray; opacity: 1;}
 
 .section-padding {
-	padding: 90px 0;
+	padding: 80px 0;
 }
 .carousel-item {
 	height: 100vh;
@@ -59,7 +59,6 @@ h5{
 	z-index: 1;
 }
 .navbar .getstarted {
-	background: #106eea;
 	margin-left: 30px;
 	border-radius: 4px;
 	font-weight: 400;
@@ -111,9 +110,9 @@ h5{
 .navbar-toggler {
 	padding: 1px 5px;
 	font-size: 18px;
-	line-height: 0.3;
-	background: #fff;
+	line-height: 0.3;	
 }
+
 .portfolio .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
@@ -188,6 +187,18 @@ footer .bi-whatsapp:hover{
 	color: rgb(49, 212, 84);
 	font-weight: bold;
 }
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
+.whatsapp-icon.svg{
+	font-size: 15px;
+}
+  #robbu-whatsapp-button:hover{
+	transform: scale(1.1);
+    transition: all 0.5s;
+  }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	#navbarSupportedContent ul{
@@ -268,7 +279,7 @@ footer .bi-whatsapp:hover{
 	
 	}
 	.carousel-item {
-		height: 88vh;
+		height: 91vh;
 		min-height: 300px;	object-fit: cover;	
 	}
 	.carousel-item img{ 
@@ -304,9 +315,6 @@ footer .bi-whatsapp:hover{
      .navbar li button{
 		display: none;
 	 }
-	 #WhatsMobile{
-		display: inline !important;
-		border-radius: 20px;
-		color:green
-	 }
+	 
+	
 }
