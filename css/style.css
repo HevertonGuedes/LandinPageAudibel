@@ -59,7 +59,7 @@ body {
 
 .carousel-caption h2 {
 	color: #891819;
-	text-shadow: 1px 1px 1px rgb(146, 86, 86);
+	text-shadow: 1px 1px 1px rgb(146, 86, 86) !important;
 	font-weight: 500;
 	margin-left: 500px;
 	font-size: 23px;
